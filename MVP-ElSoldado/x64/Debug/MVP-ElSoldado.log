@@ -1,0 +1,5 @@
+﻿  View.cpp
+D:\CPP\MVP-ElSoldado\MVP-ElSoldado\IView.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP\MVP-ElSoldado\MVP-ElSoldado\IView.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\CPP\MVP-ElSoldado\MVP-ElSoldado\WeaponFactory.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  MVP-ElSoldado.vcxproj -> D:\CPP\MVP-ElSoldado\x64\Debug\MVP-ElSoldado.exe

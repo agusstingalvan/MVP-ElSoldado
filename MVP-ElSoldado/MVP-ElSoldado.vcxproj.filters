@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{73a093de-9010-4350-b414-34157d490f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{553389f5-f230-4c38-abf6-1a92681815c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presenter">
+      <UniqueIdentifier>{3e670827-260e-46c6-a55a-a15d61707906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{6b07d9fa-cf92-423e-8b39-af1ff8628a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapons">
+      <UniqueIdentifier>{5d03eb6f-108b-443e-9604-68816b8af8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapons\Factory">
+      <UniqueIdentifier>{4d891438-52f7-4c64-9c05-5bae97506c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Weapons\Types">
+      <UniqueIdentifier>{50c1af57-cf71-48d7-9455-dd41030f2123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Soldier">
+      <UniqueIdentifier>{1e3a38bd-6950-4540-adba-80a3da585691}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="IView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponFactory.cpp">
+      <Filter>Domain\Weapons\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Domain\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Presenter.cpp">
+      <Filter>Presenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Domain\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="Revolver.cpp">
+      <Filter>Domain\Weapons\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.cpp">
+      <Filter>Domain\Weapons\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>Domain\Weapons\Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="View.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="IView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFactory.h">
+      <Filter>Domain\Weapons\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Domain\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Presenter.h">
+      <Filter>Presenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Domain\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="Revolver.h">
+      <Filter>Domain\Weapons\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Domain\Weapons\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Domain\Weapons\Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MVP-ElSoldado.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
